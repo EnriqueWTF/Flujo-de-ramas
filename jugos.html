@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos de Jugos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2196f3;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #e3f2fd;
+            margin: 12px 0;
+            padding: 18px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+        }
+        img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-right: 18px;
+        }
+        .type {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #1565c0;
+        }
+        .desc {
+            color: #333;
+            margin-top: 4px;
+        }
+        .back-btn {
+        display: block;
+        margin: 30px auto 0 auto;
+        padding: 12px 32px;
+        background-color: #2196f3;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1em;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(33,150,243,0.15);
+        transition: background 0.2s;
+    }
+    .back-btn:hover {
+        background-color: #1565c0;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tipos de Jugos</h1>
+        <ul>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Orange-juice-1.jpg" alt="Jugo de Naranja">
+                <div>
+                    <div class="type">Naranja</div>
+                    <div class="desc">Jugo natural de naranja, rico en vitamina C y muy refrescante.</div>
+                </div>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Apple_juice.jpg" alt="Jugo de Manzana">
+                <div>
+                    <div class="type">Manzana</div>
+                    <div class="desc">Jugo dulce y suave, elaborado con manzanas frescas.</div>
+                </div>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Jugo_de_uva.jpg" alt="Jugo de Uva">
+                <div>
+                    <div class="type">Uva</div>
+                    <div class="desc">Jugo elaborado con uvas, de sabor intenso y antioxidante.</div>
+                </div>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Jugo_de_zanahoria.jpg" alt="Jugo de Zanahoria">
+                <div>
+                    <div class="type">Zanahoria</div>
+                    <div class="desc">Jugo nutritivo, fuente de vitamina A y con sabor suave.</div>
+                </div>
+            </li>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Jugo_de_toronja.jpg" alt="Jugo de Toronja">
+                <div>
+                    <div class="type">Toronja</div>
+                    <div class="desc">Jugo cítrico y ligeramente ácido, ideal para el desayuno.</div>
+                </div>
+            </li>
+        </ul>
+         <div class="container">
+        <button class="back-btn" onclick="window.location.href='index.html'">Regresar a Refrescos</button>
+    </div>
+    </div>
+   
+</body>
+</html>
